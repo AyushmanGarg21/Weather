@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}  
+
+body
+{
+    height: 100px;
+    background-color: #4c4d4e;
+}
+
+#search-form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#search-button
+{
+    color: #130506;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: rgb(163, 160, 160);
+    border-radius: 8px;
+    margin-left: 5px;
+    padding: 11px;
+    border: 2px solid #0e0505;
+    display: inline-block;
+    transition: all 0.4 ease 0s;
+}
+
+#search-button:hover
+{
+    color: #ffffff;
+    background: #21c09e;
+    border-color: #1df028;
+    transition: all 0.4s ease 0s;
+}
+
+#search-input
+{
+    width: 280px;
+    overflow: hidden;
+    font-size: 20px;
+    margin: 8px 0;
+    padding: 8px 0;
+    border-bottom: 3px solid #ff6768;
+    color: rgb(247, 241, 241);
+    outline: none;
+    background: none;
+}
+
+input
+{
+    border: none;
+    
+}
+
+
+#location
+{
+    font-family: cursive;
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+#temp
+{
+    text-align: center;
+}
+
+#temp-icon
+{
+    margin: 1rem;
+    width: 40%;
+    height: auto;
+}
+
+#temp #temp-unit
+{
+    font-family:cursive;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+#temp #temp-value
+{
+    font-family: cursive;
+    font-size: 2rem;
+    color: #ffffff;
+
+}
+
+#climate
+{
+    font-family: cursive;
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+main
+{
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #6b778d;
+    border-radius: 25px;
+    width: 380px;
+    height: 380px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* box-shadow: 10px 10px 20px 10px rgba(112, 102, 102, 0.2); */
+}
+
+
+.footer 
+{
+    position: fixed;
+    left:0;  
+    bottom:0;
+    width:100%;
+    
+    background-color: #0a273f;
+    text-align: center;
+    color: rgb(187, 179, 179);
+    font-size: 1rem; 
+    /*right: 0px; */
+
+}
+.ico 
+{
+    padding: 0.2px;
+    text-align: center;
+}
+.ico img 
+{
+    height: 1.5rem;
+    width: 1.5rem;
+} 
+  
+
+
+
+
